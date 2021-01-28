@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color:rgb(155, 155, 155);
+}
+
+#zawartosc {
+    background-color: rgb(43, 38, 37);
+    margin: 50px auto;
+    width: 70%;
+    min-height: 800px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    padding: 15px 0 10px 10px;
+    border-bottom: 1px dashed rgb(255, 255, 255);
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+#ogloszenia {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+.ogloszenieul{
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.nazwa{
+    color: rgb(17, 0, 255);
+    font-weight: bold;
+}
+.tekst{
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+.cena{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    border: solid 0.5px;
+    border-radius: 10px;
+    max-width: 10%;
+
+}
+.data{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: right;
+    border-bottom: 2px dotted rgb(43, 38, 37);
+}
+
+/*infomator*/
+#informator {
+    background-color: rgb(55, 55, 70);
+    margin: 5px auto;
+    margin-left: 0px;
+    width: 18%;
+    min-height: 100px;
+    overflow: hidden;
+    border-radius: 80px;
+    font-family: fantasy;
+    border: 4px solid rgb(0, 0, 0);
+}
+#informacje {
+    width: 60%;
+    background-color: rgb(196, 197, 197);
+    border-radius: 20px;
+    height: 92px;
+    margin: 10px auto;
+    overflow: auto;
+}
+header h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    
+}
+
+.infor{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    border-bottom: 1px dashed rgb(43, 38, 37);
+}
+
+/*form*/
+#formularz{
+    width: 90%;
+    margin: auto;
+    min-height: 100px;
+}
+
+
+.fnazwa{
+    width: 25%;
+    height: 20px;
+    margin: 10px auto;
+}
+.ftekst{
+    width: 100%;
+    height: 200px;
+    margin: 10px auto;
+}
+.fcena{
+    width: 25%;
+    height: 30px;
+    margin: 10px auto;
+}
+
+#formularz input[type="submit"]{
+    padding: 10px;
+    width: 25%;
+    margin-bottom: 30px;       
+}
